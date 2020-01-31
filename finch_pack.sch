@@ -94,7 +94,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FHM-02PG">
+<deviceset name="FHM-02PGR">
 <description>&lt;b&gt;Fujikura FHM-02PG Pressure Transducer&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="FHM-02PG" x="0" y="0"/>
@@ -4826,7 +4826,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="FHM-02PG" library="fujikura-fhm" deviceset="FHM-02PG" device=""/>
+<part name="FHM-02PGR" library="fujikura-fhm" deviceset="FHM-02PGR" device=""/>
 <part name="INA122UA" library="texas-ina" deviceset="INA122UA" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/10" package3d_urn="urn:adsk.eagle:package:23567/2"/>
@@ -4837,7 +4837,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="FHM-02PG" gate="G$1" x="22.86" y="15.24" smashed="yes" rot="R90">
+<instance part="FHM-02PGR" gate="G$1" x="22.86" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.16" y="10.16" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="38.1" y="10.16" size="1.27" layer="95" rot="R90"/>
 </instance>
@@ -4865,7 +4865,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="30.48" y1="30.48" x2="46.3" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="46.3" y1="30.48" x2="46.3" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="FHM-02PG" gate="G$1" pin="VO+"/>
+<pinref part="FHM-02PGR" gate="G$1" pin="VO+"/>
 <junction x="30.48" y="30.48"/>
 <pinref part="INA122UA" gate="G$1" pin="VIN+"/>
 </segment>
@@ -4881,9 +4881,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="7.62" y1="30.48" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-5.08" x2="15.24" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="15.24" y="-5.08"/>
-<pinref part="FHM-02PG" gate="G$1" pin="VO-@1"/>
+<pinref part="FHM-02PGR" gate="G$1" pin="VO-@1"/>
 <junction x="15.24" y="30.48"/>
-<pinref part="FHM-02PG" gate="G$1" pin="VO-@6"/>
+<pinref part="FHM-02PGR" gate="G$1" pin="VO-@6"/>
 <pinref part="INA122UA" gate="G$1" pin="VIN-"/>
 </segment>
 </net>
@@ -4895,7 +4895,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="63.5" y1="1.74" x2="63.5" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="0" x2="22.86" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-5.08" x2="50.8" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="FHM-02PG" gate="G$1" pin="V-"/>
+<pinref part="FHM-02PGR" gate="G$1" pin="V-"/>
 <pinref part="INA122UA" gate="G$1" pin="V-"/>
 <pinref part="INA122UA" gate="G$1" pin="REF"/>
 <wire x1="50.8" y1="-5.08" x2="63.5" y2="-5.08" width="0.1524" layer="91"/>
@@ -4911,7 +4911,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="FHM-02PG" gate="G$1" pin="V+"/>
+<pinref part="FHM-02PGR" gate="G$1" pin="V+"/>
 <wire x1="22.86" y1="30.48" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
