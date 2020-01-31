@@ -62,7 +62,7 @@
 <libraries>
 <library name="fujikura-fhm">
 <packages>
-<package name="FHM-02PG">
+<package name="FHM-02PGR">
 <pad name="4" x="-5.08" y="-2.54" drill="1" diameter="1.8"/>
 <pad name="3" x="4.92" y="-2.54" drill="1" diameter="1.8"/>
 <pad name="5" x="-5.08" y="0" drill="1" diameter="1.8"/>
@@ -78,7 +78,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="FHM-02PG">
+<symbol name="FHM-02PGR">
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
@@ -95,12 +95,12 @@
 </symbols>
 <devicesets>
 <deviceset name="FHM-02PGR">
-<description>&lt;b&gt;Fujikura FHM-02PG Pressure Transducer&lt;/b&gt;</description>
+<description>&lt;b&gt;Fujikura FHM-02PGR Pressure Transducer&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="FHM-02PG" x="0" y="0"/>
+<gate name="G$1" symbol="FHM-02PGR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FHM-02PG">
+<device name="" package="FHM-02PGR">
 <connects>
 <connect gate="G$1" pin="NC" pad="4"/>
 <connect gate="G$1" pin="V+" pad="2"/>
